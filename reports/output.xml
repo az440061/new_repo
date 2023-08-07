@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1 (Python 3.11.2 on win32)" generated="20230727 14:11:20.848" rpa="false" schemaversion="4">
+<suite id="s1" name="Test Cases" source="E:\Python_Projects\New Repo\test_cases.robot">
+<test id="s1-t1" name="TC1" line="6">
+<kw name="Log To Console" library="BuiltIn">
+<arg>functional test case</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230727 14:11:21.460" endtime="20230727 14:11:21.461"/>
+</kw>
+<tag>Functional</tag>
+<status status="PASS" starttime="20230727 14:11:21.459" endtime="20230727 14:11:21.461"/>
+</test>
+<test id="s1-t2" name="TC2" line="9">
+<kw name="Log To Console" library="BuiltIn">
+<arg>sanity test cases</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230727 14:11:21.462" endtime="20230727 14:11:21.462"/>
+</kw>
+<tag>Sanity</tag>
+<status status="PASS" starttime="20230727 14:11:21.461" endtime="20230727 14:11:21.462"/>
+</test>
+<test id="s1-t3" name="TC3" line="12">
+<kw name="Log To Console" library="BuiltIn">
+<arg>integression test case</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230727 14:11:21.463" endtime="20230727 14:11:21.463"/>
+</kw>
+<tag>Integression</tag>
+<status status="PASS" starttime="20230727 14:11:21.463" endtime="20230727 14:11:21.463"/>
+</test>
+<test id="s1-t4" name="TC4" line="15">
+<kw name="my_keyword1">
+<kw name="Log To Console" library="BuiltIn">
+<arg>smoke test cases</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230727 14:11:21.465" endtime="20230727 14:11:21.465"/>
+</kw>
+<status status="PASS" starttime="20230727 14:11:21.464" endtime="20230727 14:11:21.465"/>
+</kw>
+<tag>Smoke</tag>
+<status status="PASS" starttime="20230727 14:11:21.464" endtime="20230727 14:11:21.465"/>
+</test>
+<test id="s1-t5" name="TC5" line="18">
+<kw name="my_keyword2">
+<kw name="Log To Console" library="BuiltIn">
+<arg>regression test case</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230727 14:11:21.466" endtime="20230727 14:11:21.467"/>
+</kw>
+<status status="PASS" starttime="20230727 14:11:21.466" endtime="20230727 14:11:21.467"/>
+</kw>
+<tag>Regression</tag>
+<status status="PASS" starttime="20230727 14:11:21.466" endtime="20230727 14:11:21.467"/>
+</test>
+<status status="PASS" starttime="20230727 14:11:20.852" endtime="20230727 14:11:21.467"/>
+</suite>
+<statistics>
+<total>
+<stat pass="5" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Functional</stat>
+<stat pass="1" fail="0" skip="0">Integression</stat>
+<stat pass="1" fail="0" skip="0">Regression</stat>
+<stat pass="1" fail="0" skip="0">Sanity</stat>
+<stat pass="1" fail="0" skip="0">Smoke</stat>
+</tag>
+<suite>
+<stat pass="5" fail="0" skip="0" id="s1" name="Test Cases">Test Cases</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
